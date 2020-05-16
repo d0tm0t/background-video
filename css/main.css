@@ -21,7 +21,7 @@ body {
   height: 100%;
   filter: blur(6px);
   -webkit-filter: blur(6px);
-  background: url('https://github.com/d0tm0t/background-video/raw/master/img/video_cover.jpg') no-repeat;
+  background: url('https://d0tm0t.github.io/background-video/img/video_cover.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 35rem;

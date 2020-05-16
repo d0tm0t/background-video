@@ -1,0 +1,142 @@
+body {
+  letter-spacing: 0.0625em;
+}
+
+#video_container {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  min-height: 35rem;
+}
+
+#video_cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+  background: url('/img/video_cover.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 35rem;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  min-height: 35rem;
+}
+
+.btn {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: Karla, Aria, sans-serif;
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #64a19d;
+  border-color: #64a19d;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #467370;
+  border-color: #467370;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+}
+
+h1 {
+  font-family: Karla, Aria, sans-serif;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+
+  h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width:500px) {
+  .github-corner:hover .octo-arm {
+    animation: none
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+  }
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+
+  0%,
+  100% {
+    transform: rotate(0)
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg)
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg)
+  }
+}

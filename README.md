@@ -5,6 +5,8 @@ Fullscreen HTML5 Background Video
 [![GitHub license](https://img.shields.io/github/license/d0tm0t/background-video.svg)](https://github.com/d0tm0t/background-video/blob/master/LICENSE)
 ![Author](https://img.shields.io/badge/author-%40d0tm0t-blue.svg)
 
+![Preview](https://user-images.githubusercontent.com/32716536/82115090-8b931100-9715-11ea-823d-bf0a7471ba95.png)
+
 # Demo
 [**Example page**](http://d0tm0t.github.io/background-video/)
 

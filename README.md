@@ -1,8 +1,12 @@
 Fullscreen HTML5 Background Video
 ======================
-This plugin will help you play a video on a container.
+> This plugin will help you play a video on a container.
 
-[**Demo**](http://d0tm0t.github.io/background-video/)
+[![GitHub license](https://img.shields.io/github/license/d0tm0t/background-video.svg)](https://github.com/d0tm0t/background-video/blob/master/LICENSE)
+![Author](https://img.shields.io/badge/author-%40d0tm0t-blue.svg)
+
+# Demo
+[**Example page**](http://d0tm0t.github.io/background-video/)
 
 Features
 --------

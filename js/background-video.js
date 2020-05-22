@@ -41,7 +41,7 @@ export default class backgroundVideo {
             document.documentElement.clientHeight ||
             document.body.clientHeight;
 
-        const videoRatio = (videoWidth / videoHeight).toFixed(2);
+        const videoRatio = (videoWidth / videoHeight);
 
         const widthRatio = screenWidth / videoWidth;
         const heightRatio = screenHeight / videoHeight;
